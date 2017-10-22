@@ -1,0 +1,29 @@
+commit 34c84a3671e69ca3c2cdecac38d153b866b20769
+Author: csvb <csvb@CS350-eli24.csvb.local>
+Date:   Thu Oct 12 22:06:00 2017 -0400
+
+    Fixed bugs, added program to use system call
+
+commit 51671d9ca91a4d836af76ed2dcc74001af77d01e
+Author: csvb <csvb@CS350-eli24.csvb.local>
+Date:   Thu Oct 12 12:01:07 2017 -0400
+
+    Added code
+
+commit 664c1a2b421904eee23175c8da8cf45a8d6a70a8
+Author: csvb <csvb@CS350-eli24.csvb.local>
+Date:   Thu Oct 12 09:46:08 2017 -0400
+
+    Added table; added syscall entry to table
+
+commit 8df3b7b70fce320cd1f6f1689b2a2c0201e55727
+Author: csvb <csvb@CS350-eli24.csvb.local>
+Date:   Thu Oct 12 01:45:35 2017 -0400
+
+    Initial commit, added source file
+
+commit cd0604a6864d22552c42cd2892ee0fbe07206ceb
+Author: LiEric97 <32647922+LiEric97@users.noreply.github.com>
+Date:   Thu Oct 12 01:34:12 2017 -0400
+
+    Initial commit
