@@ -8,7 +8,7 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-#define N 100
+#define N 100000
 #define MAX_LENGTH 128
 
 int main() {

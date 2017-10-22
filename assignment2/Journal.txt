@@ -1,0 +1,26 @@
+==============================
+Eric W. Li
+CS 350: Operating Systems
+Assignment 2 Journal
+==============================
+
+Explain the reason for any differences reported by the time reported by your 
+module and the time reported by user-level gettimeofday() library routine.
+    - The most obvious difference is the granuality of the three timing mechanisms. 
+The user-level gettimeofday() and getnstimeofday() has better a better granuality 
+than current_kernel_time(). 
+
+
+Run the user-level program for various values of N. Explain the reasons for any differences that you observe between the three timing mechanisms.
+    - gettimeofday and getnstimeofday stays in sync with the actual time, while 
+current_kernel_time does not.
+    - A possible reason for the time differences is how current_kernel_time allows 
+for the access of xtime atomically.
+
+Now, change the module so that init_module() returns -1, recompile, and retest. 
+What happens? Why?
+
+    - We get the message: insmod: ERROR: could not insert module mytime_module.ko: 
+Operation not permitted
+    - This is because init_module returns 0 on success, and -1 on error.
+
